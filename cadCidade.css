@@ -1,0 +1,86 @@
+* {
+    background-color: #f3eae8;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#area #cadastro
+{
+  position:absolute;
+  display:block;
+}
+
+#area
+{
+  position:relative;
+}
+
+fieldset
+{
+  width:740px;
+  height:700px;
+}
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+
+#cadastro label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+
+#cadastro input.campo_id
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:94px;
+}
+
+#cadastro input.campo_nome
+{
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
+select.campo_uf{
+    position: absolute;
+    left: 95px;
+    margin-top: 2px;
+    width: 100px;
+}
+
+button {
+    margin-left: 10px;
+    cursor: pointer;
+    width: 80px;
+    border: 1px solid black;
+    box-shadow: 2px 2px;
+}
+
+table td {
+    padding: 1px;
+    line-height: 1;
+    vertical-align: top;
+    border: 1px solid hsla(0, 0%, 50.2%, .5019607843137255);
+}
+
+.table_id{
+    width: 80px;
+}
+
+.table_nome{
+    width: 550px;
+}
+
+.table_uf{
+    width: 80px;
+    text-align: center;
+}
