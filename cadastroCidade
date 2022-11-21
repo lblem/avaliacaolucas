@@ -1,0 +1,99 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadCidade.css"/> 
+    <title>Cadastro de Cidade</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div id="area">
+        <form id="cadastro" autocomplete="off">
+            <fieldset>
+                <legend>Cadastro de Cidade</legend>
+                    <label>Id:</label>
+                        <input class="campo_id" type="number" name="Id"><br/><br>
+                    <label>Nome:</label>
+                        <input class="campo_nome" type="text" name="nome"><br><br>
+                    <label>UF:</label>
+                        <select class="campo_uf">
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="AM">AM</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MT">MT</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PB">PB</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                </select><br><br>
+                <button id="btnAddLine">Inserir</button>
+                <button>Alterar</button>
+                <button>Excluir</button>
+                <button>Cancelar</button>
+                <br>
+                <br>
+                <br>
+                <table id="tabelaHeader">
+                    <tr>
+                        <td class="table_id">Id</td>
+                        <td class="table_nome" >Nome</td>
+                        <td class="table_uf" >UF</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pato Branco</td>
+                        <td>PR</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Curitiba</td>
+                        <td>PR</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Cascavel</td>
+                        <td>PR</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Chapecó</td>
+                        <td>SC</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Porto Alegre</td>
+                        <td>RS</td>
+                    </tr>
+                </table>
+
+                <table id="tabelaDados">
+                    <thead>
+                    </thead>
+                </table>
+            </fieldset>
+        </form>
+    </div>   
+</body>
+</html>
